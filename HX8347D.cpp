@@ -231,7 +231,7 @@ void HX8347D::setRotation(int m)
     clearClipping();
 }
 
-void HX8347D::invertDisplay(boolean i) 
+void HX8347D::invertDisplay(bool i) 
 {
     setRegister(0x01,i ? 0x02 : 0x00);
 }
