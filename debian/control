@@ -12,7 +12,7 @@ XBSC-Group: DisplayCore
 XBSC-Subgroup: Drivers
 Depends: libdisplaycore-core, libdspi-chipkit
 Provides: HX8347D.h
-Description: HX8347D library
+Description: HX8347D
 
 
 
