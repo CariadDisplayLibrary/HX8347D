@@ -1,3 +1,4 @@
-HX8347D.cpp libraries/DisplayCore/HX8347D
-HX8347D.h libraries/DisplayCore/HX8347D
-examples/ libraries/DisplayCore/HX8347D
+examples libraries/DisplayCore/HX8347D
+library.json libraries/DisplayCore/HX8347D
+library.properties libraries/DisplayCore/HX8347D
+src libraries/DisplayCore/HX8347D
