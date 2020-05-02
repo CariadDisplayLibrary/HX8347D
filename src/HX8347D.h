@@ -1,10 +1,10 @@
 #ifndef _HX8347D_H
 #define _HX8347D_H
 
-#include <DisplayCore.h>
+#include <Cariad.h>
 #include <DSPI.h>
 
-class HX8347D : public DisplayCore
+class HX8347D : public Cariad
 {
     private:
         DSPI *_spi;
@@ -21,7 +21,7 @@ class HX8347D : public DisplayCore
         static const int Height     = 320;
 
 
-		HX8347D(DSPI &spi, int dc, int cs) : DisplayCore(), _spi(&spi), _dc(dc), _cs(cs) {}
+		HX8347D(DSPI &spi, int dc, int cs) : Cariad(), _spi(&spi), _dc(dc), _cs(cs) {}
 
 		void setAddrWindow(int x0, int y0, int x1, int y1);
 		void setAddrWindowRead(int x0, int y0, int x1, int y1);

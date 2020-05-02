@@ -1,16 +1,17 @@
-Source: libdisplaycore-driver-hx8347d
+Source: libcariad-driver-hx8347d
 Section: main
 Priority: extra
 Maintainer: Matt Jenkins <matt@majenko.co.uk>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
 
-Package: libdisplaycore-driver-hx8347d
+Package: libcariad-driver-hx8347d
+Replaces: libdisplaycore-driver-hx8347d
 Architecture: all
-XBSC-Group: DisplayCore
+XBSC-Group: Cariad
 XBSC-Subgroup: Drivers
 XBSC-Subsubgroup: TFT
-Depends: libdisplaycore-core, libdspi-chipkit
+Depends: libcariad-core, libdspi-chipkit
 Provides: HX8347D.h
 Description: HX8347D
 
